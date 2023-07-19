@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Nav Bar starts -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark nav-style small-navbar"
+      style="background-image:linear-gradient(to right, #0b2692, #a91616); position: relative;top: 0;"
+      id="topnav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="Images/logo.png" width="60px" class="img-fluid"
+        /></a>
+
+        <div class="row">
+          <div class="col-md-3">
+            <h1 class="logo-style">HeartWise</h1>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./copy.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#typeservice">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#third">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="searchbox"
+            />
+            <button class="btn btn-outline-dark" type="submit" id="searchbtn">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script>
+        window.onscroll = function() { myFunc() };
+    
+        var navbar = document.getElementById("topnav");
+        var sticky = navbar.offsetTop;
+    
+        function myFunc() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
+    <!-- Nav Bar ends -->
+
+
+    
+    <!-- Container starts here -->
+    <div class="container-fluid">
+      <!-- Banner starts here -->
+      <div
+        id="banner" >
+        
+        <div class="row">
+          <div class="col-md-12" id="bannerleft">
+            <h1 style="-webkit-text-fill-color:#000;">
+              Heart Disease Symptoms
+            </h1>
+          </br>
+            <div class="row">
+              <div class="col-md-6 image-text-container">
+                <img src="https://www.emergeresearch.org/wp-content/uploads/2020/12/Silhouette-filler-photo.png" class="circle-image" style="margin-right: 10px;">
+                <span style="-webkit-text-fill-color: #000;">By Robin Donovan, Updated on March 3, 2018</span>
+              </div>
+              <div class="col-md-6">
+              </div>
+            </div>
+            <img src="https://th.bing.com/th/id/R.2bdcdcde0e2c5fc83155de87cf0e780f?rik=%2fb6f8tKJhpNIVQ&riu=http%3a%2f%2fwww.heart.org%2f-%2fmedia%2fimages%2fabout-us%2fheart-attack-and-stroke-warning-signs%2fman-clutching-his-chest-in-pain-171287417.jpg%3fh%3d1055%26la%3den%26w%3d1640%26hash%3dFB9007F0AD88070E12935316FE59324F5405AB73&ehk=9Ng4hQg3lL4R7p33BHlTgcdAoWErAZ%2b0e0ft3iVsHzg%3d&risl=&pid=ImgRaw&r=0" style="width: 100%;height: 500px;margin-bottom: 10px;">
+            <h2 class="text-style" style="margin-bottom: -13px;">What is heart disease?</h2>
+            <p class="text-style">
+              Heart disease is a term that describes a group of medical conditions involving disease of the heart or blood vessels. The Mayo Clinic identifies the following conditions as heart disease:
+             </p>
+              <ul>
+                <li>coronary artery disease</li>
+                <li>heart failure</li>
+                <li>arrhythmia, such as atrial fibrillation</li>
+                <li>congenital heart defects</li>
+               </ul>
+              <p class="text-style">Other diseases of the heart include:</p> 
+               <ul>
+                <li>heart infections</li>
+                <li>heart valve disease</li>
+                <li>cardiomegaly (an abnormally enlarged heart)</li>
+                <li>cardiomyopathy (a disease of the heart muscle)</li>
+               </ul>
+               <h2>What are the symptoms of different types of heart disease?</h2>
+               <p class="text-style">Chest pain from the heart muscle because it doesn’t have adequate oxygen and nutrient-rich arterial blood flow, 
+                also called angina, is a common symptom of heart disease. Angina causes you to feel discomfort in your chest. Some
+                people experience tightness or a squeezing sensation around their breastbone. The pain may radiate to the neck, down
+                the shoulder and arms or upper abdomen, or into the upper back.</br>
+                If you’re very tired or have difficulty catching your breath after minor exertion, you may have symptoms of heart disease. 
+                These symptoms typically ease with rest.</br>
+                Women often experience different symptoms than men. For example, women may have:
+                </p>
+                <ul>
+                  <li>nausea</li>
+                  <li>vomiting</li>
+                  <li>back pain</li>
+                  <li>jaw pain</li>
+                  <li>cold sweats</li>
+                  <li>paleness</li>
+                  <li>dizziness</li>
+                  <li>shortness of breath</li>
+                  <li>lightheadedness</li>
+                  <li>fainting episodes</li>
+                </ul>
+              <h2>Atherosclerosis</h2>
+              <p class="text-style">The symptoms of heart disease depend on the type of heart problem you have.</br>
+                Atherosclerosis is a hardening and stiffening of blood vessels due to blood 
+                vessel injury from accumulation of fatty plaque deposits. The symptoms can 
+                include chest pain and shortness of breath in coronary artery atherosclerosis.</br>
+                Additional symptoms include:
+                </p>
+                <ul>
+                  <li>unusual pain</li>
+                  <li>coldness</li>
+                  <li>numbness</li>
+                  <li>weakness in your arms and legs</li>
+                </ul>
+                <p class="text-style"> These symptoms are due to a lack of arterial blood supply to the extremities.</p>
+                <h2>Arrhythmias</h2>
+                <p class="text-style">Arrhythmias, also known as abnormal heart rhythms, have different symptoms. 
+                  An arrhythmia may be accompanied by a heartbeat that’s too fast or too slow.
+                  It can make you feel like your heart has a flutter, a racing heartbeat, or an 
+                  unusually slow pulse.<br>
+                  An arrhythmia may also cause:
+                  </p>
+                  <ul>
+                    <li>chest pain</li>
+                    <li>lightheadedness</li>
+                    <li>dizziness</li>
+                    <li>fainting spells</li>
+                  </ul>
+                <h2>Congenital heart defects</h2>
+                <p class="text-style">Congenital heart defects are heart problems that typically occur during 
+                  fetal development and are present at birth. Doctors usually diagnose them 
+                  at birth or in early childhood. Sometimes people don’t receive a diagnosis 
+                  until adulthood, depending on the severity of symptoms. These include:
+                  </p>
+                  <ul>
+                    <li>shortness of breath</li>
+                    <li>blue-tinged skin</li>
+                    <li>easily tired</li>
+                    <li>swelling of the extremities</li>
+                  </ul>
+                  <p class="text-style"> In general, the more severe the congenital defect, the earlier it’s apparent. </p>
+                <h2>Cardiomyopathy</h2>
+                <p class="text-style">Cardiomyopathy occurs when the heart muscle becomes diseased. It has several 
+                  possible symptoms that may be difficult to immediately link to heart disease. 
+                  These symptoms include:
+                  </p>
+                  <ul>
+                    <li>shortness of breath</li>
+                    <li>swollen lower legs, ankles, or feet</li>
+                    <li>bloating</li>
+                    <li>fatigue</li>
+                    <li>a pounding or fluttering pulse</li>
+                  </ul>
+                <h2>Heart infections</h2>
+                <p class="text-style">
+                  The three main types of heart infection are infectious pericarditis, 
+                  myocarditis, and endocarditis. They affect different parts of the heart 
+                  and may have slightly different symptoms.<br>
+                  The symptoms of a heart infection may be similar to those of cardiomyopathy 
+                  but may also include a fever, chest pain, a skin rash, or a cough that won’t go away.
+                </p>
+                <h2>Risk factors for heart disease</h2>
+                <p class="text-style">Common risk factors for heart disease include:</p>
+                  <ul>
+                    <li>being overweight</li>
+                    <li>being inactive</li>
+                    <li>smoking tobacco</li>
+                    <li>eating a high-fat, high-sodium, and high-carbohydrate diet</li>
+                    <li>having diabetes mellitus</li>
+                    <li>having high blood pressure</li>
+                    <li>having high cholesterol</li>
+                    <li>having a family history of heart disease</li>
+                  </ul>
+                <p class="text-style">
+                  The Centers for Disease Control and Prevention (CDC) reports that about 47 percent of Americans have one or more of the three “key” risk factors for heart disease, which are high blood pressure, high cholesterol, and tobacco smoking.<br>
+                  Heed your doctor’s advice if they’ve warned you that you’re at risk for heart disease.
+                </p>
+                <h2>What you can do now</h2>
+                <p class="text-style">
+                  It can be difficult to interpret the symptoms on your own. Swollen lower extremities, fatigue, irregular heart rhythm, and other symptoms can indicate any number of heart issues or other illnesses.<br>
+                  It’s wise to develop a relationship with a doctor who’s familiar with your family and personal history. A doctor who knows your habits and lifestyle will be better able to diagnose your illness.<br>
+                  See your doctor before you experience the symptoms of heart disease. Get regular checkups, and listen to your doctor’s advice for living a healthier lifestyle.<br>
+                  In addition to seeing a doctor regularly, you should also make positive changes to your lifestyle. This includes the following:
+                </p>
+                <ul>
+                  <li>Stop smoking tobacco.</li>
+                  <li>Be physically active.</li>
+                  <li>Maintain a healthy weight.</li>
+                  <li>Manage your stress.</li>
+                </ul>
+                <br style="padding-bottom: -100pt;">
+                <hr class="text-style" style="font-size: xx-large; -webkit-text-fill-color: #000; font-weight: 900;">
+
+
+      <!-- Service section after banner -->
+      <div class="row justify-content-evenly" 
+      style="background-image:linear-gradient(to right, #5772dc, #eb2f2f)"
+       id="about">
+        
+      </div>
+
+    </hr>
+
+      <!-- Cards blog section starts here -->
+      <div class="row justify-content-evenly text-center" id="cards-sec">
+        <div class="col-md-12 text-center" id="cardstext">
+          <h2>READ THIS NEXT</h2>
+        </div>
+        <div class="col-lg-3 cards-pad">
+          <div class="card mx-auto" style="width: 18rem">
+            <img src="./Images/Beta-Glucan.webp" class="card-img-top" alt="..." />
+            <div class="card-body text-start">
+              <h5 class="card-title">What Is Beta Glucan? The Heart-Healthy Fiber Explained</h5>
+              <h6>APRIL 25, 2023</h6>
+              <p class="card-text">
+                Beta glucan is a type of soluble fiber that supports heart health and digestion. This article explains beta glucan's sources and....
+              </p>
+              <a href="./blog4.html" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="card mx-auto" style="width: 18rem">
+            <img src="./Images/6 healthy food.webp" style="width: 100%;" class="card-img-top" alt="..." />
+            <div class="card-body text-start">
+              <h5 class="card-title">6 Heart-Healthy Foods to Lower Your Risk of Cardiovascular Disease.</h5>
+              <h6>JULY 13, 2023</h6>
+              <p class="card-text">
+                Eating These Six Foods Can Help You Stay Heart Healthy and lower your risk of Cardiovascular Disease. Eating fish and...
+              </p>
+              <a href="./blog1.html" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="card mx-auto" style="width: 18rem">
+            <img src="./Images/child.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-start">
+              <h5 class="card-title">Types of Heart Disease in Children and Teens</h5>
+              <h6>APRIL 25, 2023</h6>
+              <p class="card-text">
+                Learn which heart problems can affect children, including congenital heart disease, arrhythmias, pericarditis, and Kawasaki.
+              </p>
+              <a href="./blog3.html" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+       
+        
+      <!-- Footer section -->
+      <div class="row justify-content-evenly pt-5 pb-2 text-white" style="background-image:linear-gradient(to right, #0b2692, #a91616);">
+        <div class="col-md-3 pt-4">
+          <h5 class="pb-2">Important links</h5>
+          <p>
+            <a href="./copy.html" class="link-light text-decoration-none">Home</a><br />
+            <a href="#about" class="link-light text-decoration-none">About</a
+            ><br />
+            <a href="#typeservice" class="link-light text-decoration-none">Resources</a
+            ><br />
+            <a href="#store-sec" class="link-light text-decoration-none">Take test</a><br />
+            <a href="#cards-sec" class="link-light text-decoration-none">Recent Posts</a><br/>
+            <br />
+          </p>
+        </div>
+        <div class="col-md-3 pt-4">
+          <h5 class="pb-2">Feedback</h5>
+          <p>
+            <a href="#banner" class="link-light text-decoration-none"><i class="bi bi-file-text"></i> Form</a><br />
+            <a href="#about" class="link-light text-decoration-none"><i class="bi bi-facebook"></i> Review on Facebook</a
+            ><br />
+            <a href="#typeservice" class="link-light text-decoration-none"><i class="bi bi-google"></i> Review on Google</a
+            ><br />
+            
+          </p>
+        </div>
+        <div class="col-md-3 pt-4">
+          <h5 class="pb-2">Contact us</h5>
+          <p>
+            
+            <i class="bi bi-telephone-fill"></i> +91 1234567890</br>
+            <i class="bi bi-envelope-at-fill"></i> HeartWise29@gmail.com</br>
+            <i class="bi bi-twitter"></i> HeartWise2911</br>
+            <i class="bi bi-instagram"></i> Heart.Wise</br>
+            <i class="bi bi-whatsapp"></i> +91 2398567131</br>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Container Ends here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
