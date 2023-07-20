@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Blog3</title>
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <link
@@ -12,7 +17,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylestest.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
@@ -25,7 +30,7 @@
       style="background-image:linear-gradient(to right, #0b2692, #a91616); position: relative;top: 0;"
       id="topnav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="./About.html"
           ><img src="Images/logo.png" width="60px" class="img-fluid"
         /></a>
 
@@ -46,19 +51,20 @@
         >
           <span class="navbar-toggler-icon "></span>
         </button>
+        <div class="col-md-1"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="copy.html">Home</a>
+              <a class="nav-link" href="./Index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="./About.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#typeservice">Service</a>
+              <a class="nav-link" href="./Index.html#cards-sec">Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#third">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -76,45 +82,29 @@
         </div>
       </div>
     </nav>
-    <script>
-        window.onscroll = function() { myFunc() };
-    
-        var navbar = document.getElementById("topnav");
-        var sticky = navbar.offsetTop;
-    
-        function myFunc() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky");
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-      </script>
     <!-- Nav Bar ends -->
 
 
     
     <!-- Container starts here -->
-    <div class="container-fluid">
-      <!-- Banner starts here -->
-      <div
-        id="banner" >
-        
-        <div class="row">
-          <div class="col-md-12" id="bannerleft">
+    <div class="container-fluid"> 
+        <div class="row"  style="padding-top: 3.5rem;">
+          <div class="col-md-12" id="blogtxt">
             <h1 class="text-style">
               Types of Heart Disease in Children and Teens
             </h1>
-          </br>
-            <div class="row">
-              <div class="col-md-6 image-text-container">
+          </div>
+          </div>
+            <div class="row" style="margin-top: -2rem;">
+              <div class="col-md-6 image-text-container" id="blogtxt">
                 <img src="https://www.emergeresearch.org/wp-content/uploads/2020/12/Silhouette-filler-photo.png" class="circle-image" style="margin-right: 10px;">
                 <span style="-webkit-text-fill-color: #000;">By Colleen M. Story, on June 20, 2023</span>
               </div>
               <div class="col-md-6">
               </div>
             </div>
-            <img src="https://live.staticflickr.com/2860/10126340415_398a6ac745_z.jpg" style="width: 100%;">
+            <img src="https://live.staticflickr.com/2860/10126340415_398a6ac745_z.jpg" style="width: 100%;height: 600px; margin-top: -2rem; padding-left: 2rem;padding-right: 2rem;padding-bottom: 2rem;">
+            <div class="container-fluid" id="blogtxt">
             <p class="text-style"> 
             <h2>Different types of heart disease can affect children and teens. Some may be present at birth, while others may develop due to infections and other factors.</h2>
             <p class="text-style">Many different types of heart problems can affect children and teens. They can include:</p>
@@ -129,8 +119,8 @@
               </p>
               <h2>Congenital heart disease</h2>
               <p class="text-style">
-                Congenital heart disease (CHD) is a type of heart disease you are born with. It occurs due to heart defects that are present at birth. In the U.S., an estimated 1%Trusted Source of babies born each year have CHD.<br>
-                CHDs that affect children and teens can include:
+                Congenital heart disease (CHD) is a type of heart disease you are born with. It occurs due to heart defects that are present at birth. In the U.S., an estimated 1% of babies born each year have CHD.</br>
+              </br>CHDs that affect children and teens can include:
               </p>
               <ul>
                 <li>heart valve disorders like a narrowing of the aortic valve, which restricts blood flow</li>
@@ -153,13 +143,16 @@
               </ul>
               <p class="text-style">
                 Congenital heart defects may have long-term effects on your health. 
-                They’re usually treated with surgery, catheter procedures, medications, and in severe cases, heart transplants.<br>
-                Some people with CHDs will require lifelong monitoring and treatment.
+                They’re usually treated with surgery, catheter procedures, medications, and in severe cases, heart transplants.</br>
+              </br> Some people with CHDs will require lifelong monitoring and treatment.
               </p>
               <h2>Atherosclerosis</h2>
               <p class="text-style">
-                Atherosclerosis occurs when fat and cholesterol-filled plaques build up inside arteries. As the buildup increases, arteries become stiffened and narrowed, which increases the risk of blood clots and heart attacks. It typically takes many years for atherosclerosis to develop. While it is not common for children or teenagers to experience symptoms from it, some evidence suggestsTrusted Source that the disease may begin in childhood.<br>
-                Some health issues and other factors may increase the risk. These can include:
+                Atherosclerosis occurs when fat and cholesterol-filled plaques build up inside arteries. As the buildup increases, 
+                arteries become stiffened and narrowed, which increases the risk of blood clots and heart attacks. It typically takes 
+                many years for atherosclerosis to develop. While it is not common for children or teenagers to experience symptoms from it, 
+                some evidence suggestsTrusted Source that the disease may begin in childhood.</br>
+              </br>Some health issues and other factors may increase the risk. These can include:
               </p>
               <ul>
                 <li>overweight/obesity</li>
@@ -173,8 +166,8 @@
               </p>
               <h2>Arrhythmias</h2>
               <p class="text-style">
-                An arrhythmia is an abnormal rhythm of the heart. It can cause the heart to pump less efficiently.<br>
-                Many different types of arrhythmias may occur in children, including:
+                An arrhythmia is an abnormal rhythm of the heart. It can cause the heart to pump less efficiently.</br>
+              </br>Many different types of arrhythmias may occur in children, including:
               </p>
               <ul>
                 <li>a fast heart rate (tachycardia), the most common type found in children being supraventricular tachycardia</li>
@@ -204,8 +197,8 @@
                 <li>throat</li>
               </ul>
               <p class="text-style">
-                It also produces a fever and swelling in the lymph nodes. Researchers aren’t sure yet what causes it.<br>
-                Treatment depends on the extent of the disease but often involves prompt treatment with:
+                It also produces a fever and swelling in the lymph nodes. Researchers aren’t sure yet what causes it.</br>
+              </br>Treatment depends on the extent of the disease but often involves prompt treatment with:
               </p>
               <ul>
                 <li>intravenous gamma globulin</li>
@@ -218,8 +211,8 @@
               <h2>Heart murmurs</h2>
               <p class="text-style">
                 A heart murmur is a sound made by blood circulating through the heart’s chambers or valves, or through blood
-                vessels near the heart. Often it’s harmless. Other times it may signal an underlying cardiovascular problem.<br>
-                Heart murmurs may develop due to:
+                vessels near the heart. Often it’s harmless. Other times it may signal an underlying cardiovascular problem.</br>
+              </br>Heart murmurs may develop due to:
               </p>
               <ul>
                 <li>CHDs</li>
@@ -232,8 +225,9 @@
               </p>
               <h2>Pericarditis</h2>
               <p class="text-style">
-                This condition occurs when the thin sac or membrane that surrounds the heart (pericardium) becomes inflamed or infected. The amount of fluid between its two layers increases, impairing the heart’s ability to pump blood the way it should.<br>
-                Pericarditis has a few different causes. These can include:
+                This condition occurs when the thin sac or membrane that surrounds the heart (pericardium) becomes inflamed or infected. 
+                The amount of fluid between its two layers increases, impairing the heart’s ability to pump blood the way it should.</br>
+              </br>Pericarditis has a few different causes. These can include:
               </p>
               <ul>
                 <li>surgery to repair a CHD</li>
@@ -263,27 +257,36 @@
               <p class="text-style">
                 Treatment typically involves medications and treatments for the symptoms of myocarditis.
               </p>
-              <a href="./blog2.html" class="img-txt-style">Read more: What are the symptoms of different types of heart disease?</a>
+              <div class="row"  id="blogtxt">
+                <div class="col-md-12 blog-tip-style">
+                  <a href="./blog2.html" style="font-size: x-large; color: black;text-decoration: none;">READ MORE: What are the symptoms of different types of heart disease?</a>
+                </div>
+                </div>
+             
               <h2>Frequently asked questions</h2>
               <p class="text-style">
                 The following includes frequently asked questions about heart disease in children and teens.
               </p>
-              <h3>What are the most common heart diseases in children?</h3>
-              <p class="text-style">More common heart diseases in children in the United States include congenital heart diseases and acquired heart diseases, such as Kawasaki disease.</p>
-              <h3>How do you know if your child has heart problems?</h3>
-              <p class="text-style">A child or teen may show some indicators of heart problems, such as trouble gaining weight, shortness of breath during activity, heart palpitations, and passing out during activity.</p>
-              <h3>What is the most common cause of heart disease in children and teens?</h3>
-              <p class="text-style">The most common cause of heart disease in children is a congenital heart defect, which is a problem with the heart that was present at birth.</p>
-              <h3>What are the types of acquired heart disease in children?</h3>
-              <p class="text-style">Children and teens can develop heart disease due to certain health issues, including Kawasaki disease, rheumatic fever, bacterial, viral, or fungal infections, and trauma.</p>
+              <ol>
+                <li><h5>What are the most common heart diseases in children?</h5>
+                  <p class="text-style">More common heart diseases in children in the United States include congenital heart diseases and acquired heart diseases, such as Kawasaki disease.</p></li>
+                <li> <h5>How do you know if your child has heart problems?</h5>
+                  <p class="text-style">A child or teen may show some indicators of heart problems, such as trouble gaining weight, shortness of breath during activity, heart palpitations, and passing out during activity.</p></li>
+                <li>  <h5>What is the most common cause of heart disease in children and teens?</h5>
+                  <p class="text-style">The most common cause of heart disease in children is a congenital heart defect, which is a problem with the heart that was present at birth.</p></li>
+                <li> <h5>What are the types of acquired heart disease in children?</h5>
+                  <p class="text-style">Children and teens can develop heart disease due to certain health issues, including Kawasaki disease, rheumatic fever, bacterial, viral, or fungal infections, and trauma.</p></li>
+              </ol>
               <h2>The takeaway</h2>
-              <p class="text-style">
-                While many types of heart disease can affect children and teens, treatments may help them live a full and active life.<br>
-                Some types of heart disease may be present at birth, while others may develop due to infections or other health issues. In some cases, prompt treatment can resolve illnesses that cause heart disease. In other cases, children or teens may need lifelong monitoring and care.
-              </p>
+                  <p class="text-style">
+                    While many types of heart disease can affect children and teens, treatments may help them live a full and active life.
+                    Some types of heart disease may be present at birth, while others may develop due to infections or other health issues. 
+                    In some cases, prompt treatment can resolve illnesses that cause heart disease. 
+                    In other cases, children or teens may need lifelong monitoring and care.
+                  </p>
+              <br style="padding-bottom: -100pt;">
+              <hr class="text-style" style="font-size: xx-large; -webkit-text-fill-color: #000; font-weight: 900;">
           </div>
-        </div>
-      </div>
       <!-- Banner ends here -->
 
       <!-- Cards blog section starts here -->
@@ -335,27 +338,25 @@
        
         
       <!-- Footer section -->
-      <div class="row justify-content-evenly pt-5 pb-2 text-white" style="background-image:linear-gradient(to right, #0b2692, #a91616);">
+      <div class="row justify-content-evenly pt-5 pb-2 text-white" style="background-image:linear-gradient(to right, #0b2692, #a91616); " id="footer">
         <div class="col-md-3 pt-4">
           <h5 class="pb-2">Important links</h5>
           <p>
-            <a href="./copy.html" class="link-light text-decoration-none">Home</a><br />
-            <a href="#about" class="link-light text-decoration-none">About</a
+            <a href="./Index.html" class="link-light text-decoration-none">Home</a><br />
+            <a href="./About.html" class="link-light text-decoration-none">About</a
             ><br />
-            <a href="#typeservice" class="link-light text-decoration-none">Resources</a
+            <a href="./Index.html#cards-sec" class="link-light text-decoration-none">Resources</a
             ><br />
-            <a href="#store-sec" class="link-light text-decoration-none">Take test</a><br />
-            <a href="#cards-sec" class="link-light text-decoration-none">Recent Posts</a><br/>
-            <br />
+            <a href="./form.html" class="link-light text-decoration-none">Take test</a>
           </p>
         </div>
         <div class="col-md-3 pt-4">
           <h5 class="pb-2">Feedback</h5>
           <p>
-            <a href="#banner" class="link-light text-decoration-none"><i class="bi bi-file-text"></i> Form</a><br />
-            <a href="#about" class="link-light text-decoration-none"><i class="bi bi-facebook"></i> Review on Facebook</a
+            <a href="#topnav" class="link-light text-decoration-none"><i class="bi bi-file-text"></i> Form</a><br />
+            <a href="#topnav" class="link-light text-decoration-none"><i class="bi bi-facebook"></i> Review on Facebook</a
             ><br />
-            <a href="#typeservice" class="link-light text-decoration-none"><i class="bi bi-google"></i> Review on Google</a
+            <a href="#topnav" class="link-light text-decoration-none"><i class="bi bi-google"></i> Review on Google</a
             ><br />
             
           </p>
