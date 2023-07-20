@@ -115,63 +115,10 @@
     }
 }
 
-/* Our Services section */
-#service-text{
-    padding-top: 8rem;
-    padding-bottom: 4rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-#service-img{
-    padding-top: 9rem;
-    padding-bottom: 4rem;
-}
-#service-btn{
-    background-color: #fe4f72;
-    border: 2px solid #fe4f72;
-    border: 0;
-    color: white;
-    border-radius: 2px;
-    padding: 2% 5%;
-    margin-right: 5%;
-    position: relative;
-    box-shadow: 2px 5px 11px 0  rgb(48, 45, 48);
-}
-
-#service-btn:hover{
-    background-color: rgb(4, 4, 4);
-    border: 2px solid rgb(0, 0, 0);
-    color: white;   
-}
-
-@media only screen and (max-width: 950px){
-    #service-img{
-        padding-top: 11rem;
-    }
-}
-
-
-#service-text p{
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-@media only screen and (max-width: 767px){
-    #service-img{
-        width: 640px;
-        padding-top: 3rem;
-    }
-}
-
-/* Service section ends here */
-
-#typeservice{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
 
 #toptext{
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.8rem;
 }
 
 #toptext h2{
@@ -179,79 +126,21 @@
 }
 
 .ser-img {
-    margin-bottom: 2rem;
-    border: 4px solid white;
+    margin-bottom: 1rem;
+    width:330pt;
+    height:270pt;
+    border: 4px solid whitesmoke;
+    margin-top: 10pt;
 }
 
-h3{
-    font-weight: 600;
-    margin-bottom: 1.2rem;
+.top-img{
+    margin-top: 8rem;
+    width:330pt;
+    height:270pt;
+    border: 4px solid whitesmoke;
 }
 
 
-/* store section starts here */
-#store-sec{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-#storetext{
-    padding-bottom: 2rem;
-}
-
-#storetext h2{
-    font-size: 40px;
-}
-
-#store-btn1{
-    background-color: #fe4f72;
-    border: 2px solid #fe4f72;
-    border: 0;
-    color: white;
-    border-radius: 18px;
-    padding: 2% 5%;
-    margin-right: 5%;
-    position: relative;
-    box-shadow: 2px 5px 11px 0 rgb(48, 45, 48);
-}
-#store-btn2{
-    background-color: #fe4f72;
-    border: 2px solid #fe4f72;
-    border: 0;
-    color: white;
-    border-radius: 18px;
-    padding: 2% 5%;
-    margin-right: 5%;
-    position: relative;
-    box-shadow: 2px 5px 11px 0 rgb(48, 45, 48);
-}
-#store-btn3{
-    background-color: #fe4f72;
-    border: 2px solid #fe4f72;
-    border: 0;
-    color: white;
-    border-radius: 18px;
-    padding: 2% 5%;
-    margin-right: 5%;
-    position: relative;
-    box-shadow: 2px 5px 11px 0 rgb(48, 45, 48);
-}
-
-#store-btn1:hover{
-    background-color: rgb(4, 4, 4);
-    border: 2px solid rgb(0, 0, 0);
-    color: white;   
-}
-#store-btn2:hover{
-    background-color: rgb(4, 4, 4);
-    border: 2px solid rgb(0, 0, 0);
-    color: white;   
-}
-#store-btn3:hover{
-    background-color: rgb(4, 4, 4);
-    border: 2px solid rgb(0, 0, 0);
-    color: white;   
-}
 
 .row>* {
     margin-bottom: 3rem;
@@ -262,6 +151,8 @@ h3{
 #stats-sec{
     background: linear-gradient(rgba(244, 67, 159, 0.5), rgba(244, 66, 152, 0.5)),
     url("https://realconsult.ru/assets/i/ai/4/4/0/i/2977563.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -269,36 +160,8 @@ h3{
     font-size: 100px;
 }
 
-/* Our teams section */
-#team-sec{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-    background-color: #FF8E9E;
-    color: white;
-}
-
-#teamtext h2{
-    color: black;
-    font-size: 40px;
-}
-
-#teamtext p{
-    color: black;
-    font-size: 20px;
-}
-
-.teamdiv h3{
-    padding-top: 0;
-    padding-bottom: 0;
-}
-.teamdiv p{
-   margin-top: 0;
-   margin-bottom: 0;
-   padding-top: 0;
-   padding-bottom: 0;
-}
 /* 
-Recent posts starts here */
+Resources starts here */
 
 #cards-sec{
     padding-top: 5rem;
@@ -309,6 +172,7 @@ Recent posts starts here */
 #cardstext h2{
     color: black;
     font-size: 40px;
+    margin-top: -20pt;
 }
 
 #cardstext p{
@@ -340,7 +204,9 @@ Recent posts starts here */
 }
 
 .text-style{
-    text-align: left;
+    text-align: justify;
+    padding-left: 1 rem;
+    padding-right: 2rem;
 }
 
 .col-md-3-style{
@@ -418,30 +284,23 @@ Recent posts starts here */
   overflow: hidden; /* Hide any image overflow */
 }
 
-
-
-
-
-
 .image-list {
     display: flex; /* Use flexbox for the list items */
     flex-direction: column; /* Stack image and caption vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text within list items */
     width:100%;
-    height:50%;
+    height:200pt;
     object-fit: cover;
-    padding-bottom: 300pt;
+
     
 }
-
 
 .text-style{
     -webkit-text-fill-color: #020202;
     text-size-adjust: 2px;
     text-align: justify;
 }
-
 
 .tip-style{
     -webkit-text-fill-color: azure;
@@ -462,6 +321,22 @@ Recent posts starts here */
     text-align: center; /* Center text within list items */
     width:100%;
     object-fit: cover;
-    padding-top: -500pt;
-    height:100%;
+    height:200pt;
 }
+
+#blogtxt {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.blog-tip-style{
+    -webkit-text-fill-color: black;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: rgba(43, 49, 44, 0.3); 
+    padding: 10px;
+    margin-bottom: 15pt;
+    text-align: center;
+}
+
