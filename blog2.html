@@ -12,7 +12,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylestest.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
@@ -25,7 +25,7 @@
       style="background-image:linear-gradient(to right, #0b2692, #a91616); position: relative;top: 0;"
       id="topnav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="./About.html"
           ><img src="Images/logo.png" width="60px" class="img-fluid"
         /></a>
 
@@ -46,19 +46,20 @@
         >
           <span class="navbar-toggler-icon "></span>
         </button>
+        <div class="col-md-1"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="./copy.html">Home</a>
+              <a class="nav-link" href="./Index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="./About.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#typeservice">Service</a>
+              <a class="nav-link" href="./Index.html#cards-sec">Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#third">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -76,46 +77,32 @@
         </div>
       </div>
     </nav>
-    <script>
-        window.onscroll = function() { myFunc() };
-    
-        var navbar = document.getElementById("topnav");
-        var sticky = navbar.offsetTop;
-    
-        function myFunc() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky");
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-      </script>
     <!-- Nav Bar ends -->
 
 
-    
+
     <!-- Container starts here -->
     <div class="container-fluid">
       <!-- Banner starts here -->
-      <div
-        id="banner" >
         
-        <div class="row">
-          <div class="col-md-12" id="bannerleft">
-            <h1 style="-webkit-text-fill-color:#000;">
+        <div class="row" style="padding-top: 3.5rem;">
+          <div class="col-md-12" id="blogtxt">
+            <h1>
               Heart Disease Symptoms
             </h1>
-          </br>
-            <div class="row">
-              <div class="col-md-6 image-text-container">
+          </div>
+          </div>
+            <div class="row" style="margin-top: -2rem;">
+              <div class="col-md-6 image-text-container" id="blogtxt">
                 <img src="https://www.emergeresearch.org/wp-content/uploads/2020/12/Silhouette-filler-photo.png" class="circle-image" style="margin-right: 10px;">
                 <span style="-webkit-text-fill-color: #000;">By Robin Donovan, Updated on March 3, 2018</span>
               </div>
               <div class="col-md-6">
               </div>
             </div>
-            <img src="https://th.bing.com/th/id/R.2bdcdcde0e2c5fc83155de87cf0e780f?rik=%2fb6f8tKJhpNIVQ&riu=http%3a%2f%2fwww.heart.org%2f-%2fmedia%2fimages%2fabout-us%2fheart-attack-and-stroke-warning-signs%2fman-clutching-his-chest-in-pain-171287417.jpg%3fh%3d1055%26la%3den%26w%3d1640%26hash%3dFB9007F0AD88070E12935316FE59324F5405AB73&ehk=9Ng4hQg3lL4R7p33BHlTgcdAoWErAZ%2b0e0ft3iVsHzg%3d&risl=&pid=ImgRaw&r=0" style="width: 100%;height: 500px;margin-bottom: 10px;">
-            <h2 class="text-style" style="margin-bottom: -13px;">What is heart disease?</h2>
+            <img src="./Images/heart-disease.jpg" style="width: 100%;height: 500px; margin-top: -2rem; padding-left: 2rem;padding-right: 2rem;padding-bottom: 2rem;">
+            <div class="container-fluid" id="blogtxt">
+            <h2 class="text-style" >What is heart disease?</h2>
             <p class="text-style">
               Heart disease is a term that describes a group of medical conditions involving disease of the heart or blood vessels. The Mayo Clinic identifies the following conditions as heart disease:
              </p>
@@ -125,7 +112,10 @@
                 <li>arrhythmia, such as atrial fibrillation</li>
                 <li>congenital heart defects</li>
                </ul>
-              <p class="text-style">Other diseases of the heart include:</p> 
+
+              <p class="text-style">
+                Other diseases of the heart include:
+              </p> 
                <ul>
                 <li>heart infections</li>
                 <li>heart valve disease</li>
@@ -244,16 +234,8 @@
                 </ul>
                 <br style="padding-bottom: -100pt;">
                 <hr class="text-style" style="font-size: xx-large; -webkit-text-fill-color: #000; font-weight: 900;">
+              </div>
 
-
-      <!-- Service section after banner -->
-      <div class="row justify-content-evenly" 
-      style="background-image:linear-gradient(to right, #5772dc, #eb2f2f)"
-       id="about">
-        
-      </div>
-
-    </hr>
 
       <!-- Cards blog section starts here -->
       <div class="row justify-content-evenly text-center" id="cards-sec">
@@ -305,31 +287,29 @@
         
       <!-- Footer section -->
       <div class="row justify-content-evenly pt-5 pb-2 text-white" style="background-image:linear-gradient(to right, #0b2692, #a91616);">
-        <div class="col-md-3 pt-4">
+        <div class="col-md-3 pt-4" id="footer">
           <h5 class="pb-2">Important links</h5>
           <p>
-            <a href="./copy.html" class="link-light text-decoration-none">Home</a><br />
-            <a href="#about" class="link-light text-decoration-none">About</a
+            <a href="./Index.html" class="link-light text-decoration-none">Home</a><br />
+            <a href="./About.html" class="link-light text-decoration-none">About</a
             ><br />
-            <a href="#typeservice" class="link-light text-decoration-none">Resources</a
+            <a href="./Index.html#cards-sec" class="link-light text-decoration-none">Resources</a
             ><br />
-            <a href="#store-sec" class="link-light text-decoration-none">Take test</a><br />
-            <a href="#cards-sec" class="link-light text-decoration-none">Recent Posts</a><br/>
-            <br />
+            <a href="./form.html" class="link-light text-decoration-none">Take test</a><br />
           </p>
         </div>
-        <div class="col-md-3 pt-4">
+        <div class="col-md-3 pt-4" id="footer">
           <h5 class="pb-2">Feedback</h5>
           <p>
-            <a href="#banner" class="link-light text-decoration-none"><i class="bi bi-file-text"></i> Form</a><br />
-            <a href="#about" class="link-light text-decoration-none"><i class="bi bi-facebook"></i> Review on Facebook</a
+            <a href="#topnav" class="link-light text-decoration-none"><i class="bi bi-file-text"></i> Form</a><br />
+            <a href="#topnav" class="link-light text-decoration-none"><i class="bi bi-facebook"></i> Review on Facebook</a
             ><br />
-            <a href="#typeservice" class="link-light text-decoration-none"><i class="bi bi-google"></i> Review on Google</a
+            <a href="#topnav" class="link-light text-decoration-none"><i class="bi bi-google"></i> Review on Google</a
             ><br />
             
           </p>
         </div>
-        <div class="col-md-3 pt-4">
+        <div class="col-md-3 pt-4" id="footer">
           <h5 class="pb-2">Contact us</h5>
           <p>
             
