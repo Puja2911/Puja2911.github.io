@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HeartWise</title>
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <link
@@ -12,7 +18,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylestest.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
@@ -54,7 +60,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="./copy.html">Home</a>
+              <a class="nav-link" href="./Index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./About.html">About</a>
@@ -123,62 +129,94 @@
       </div>
       <!-- Banner ends here -->
 
-      <!-- Service section after banner -->
+      <!-- home section after banner -->
       <div class="row justify-content-evenly" 
       style="background-image:linear-gradient(to right, #5772dc, #eb2f2f)"
        id="homepage">
         
       </div>
 
-      <!-- Types of services -->
+      <!-- introduction-->
       <div
         class="row justify-content-evenly text-center"
         id="about"
         style="background-image:linear-gradient(to right, #5772dc, #eb2f2f)">
         <div class="row">
-          <div class="col-md-6" id="service-text" >
-            <h1>"Love Your Heart: Nurturing a Lifelong Beat"</h1>
-            <p>
+          <div class="col-md-7" id="toptext" >
+            <h2 style="padding-top: 7rem; text-align: left;">"Love Your Heart: Nurturing a Lifelong Beat"</h2>
+            <p class="text-style" style="padding-right: 2rem;">
               Our comprehensive services prioritize your heart's health and
               wellbeing, delivered with expertise and personalized attention to
-              their unique needs.
+              their unique needs.At the core of Heartwise's mission is prevention.
+              Heart attacks are a leading cause of death worldwide, and many are 
+              preventable through early detection and lifestyle modifications. 
+              The heart attack risk calculator developed by Heartwise utilizes advanced 
+              algorithms and incorporates factors such as age, gender and key health indicators to generate 
+              a personalized risk score. This score provides individuals with valuable insights 
+              into their unique risk profile, allowing them to understand their vulnerability and 
+              take appropriate action. In addition to the heart attack risk calculator, we offer a wealth
+              of educational resources and materials. These resources cover topics such as heart-healthy
+              nutrition, exercise guidelines, stress management, and the importance of regular check-ups. 
+              By arming individuals with knowledge, Heartwise encourages them to adopt heart-healthy habits 
+              and make positive changes in their lifestyle.
             </p>
-            <button type="submit" class="btnn" id="service-btn">
-              Resources
-            </button>
           </div>
-          <div class="col-md-6" id="service-img">
-            <img src="./Images/Heart-in-Hands.jpg" class="img-fluid ser-img"  />
+          <div class="col-md-5">
+            <img src="./Images/heart-in-hand.png" class="img-fluid top-img"  />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-5">
             <img src="./Images/risk.jpg" class="img-fluid ser-img">
         </div>
-          <div class="col-md-6 text-center" id="toptext">
+          <div class="col-md-7 text-center" id="toptext">
             <h2 class="text-style">What is a cardiac risk calculator?</h2>
             <p class="text-style">
-              A cardiac risk calculator is a screening tool. You and your healthcare provider can use it to determine your risk of future cardiovascular disease. The information can help you take steps to reduce your risk. Lifestyle changes or medications may help prevent life-threatening heart problems.
+
+              A cardiac risk calculator is a powerful tool used to assess an individual's risk 
+              of developing cardiovascular diseases, particularly heart disease and stroke. It 
+              takes into account various risk factors, such as age, gender, blood pressure, 
+              cholesterol levels etc.
+              The primary goal of a cardiac risk calculator is to provide individuals with an 
+              estimation of their cardiovascular risk. It helps identify individuals 
+              who may be at higher risk, prompting early intervention and lifestyle modifications. 
+              Healthcare providers often use cardiac risk 
+              calculators during routine check-ups to assess their patients' heart health and 
+              guide treatment decisions. For patients, it serves as an eye-opener, encouraging 
+              them to adopt healthier lifestyles and manage risk factors proactively.
+              However, it is crucial to understand that while cardiac risk calculators are valuable
+              tools, they are not absolute predictors of future events. Other unmeasured factors may 
+              influence an individual's cardiovascular health. Therefore, it is essential to use the 
+              calculator results in conjunction with clinical expertise to make well-informed decisions 
+              and promote heart-healthy living.
             </p>
           </div>
           
         </div>
         
-        <div class="col-md-6">
-          <h3 class="text-style">What does a cardiac risk calculator do?</h3>
-          <p class="text-style">It helps in predicting the likelihood of a heart attack for a given individual
+        <div class="col-md-7" id="toptext" style="margin-top: -20pt;">
+          <h2 class="text-style" style="padding-left: 10pt;">What does a cardiac risk calculator do?</h2>
+          <p class="text-style" style="padding-left: 10pt;">It helps in predicting the likelihood of a heart attack for a given individual
             based on their clinical data and by taking into account various risk factors such as age,
             gender, blood pressure, cholesterol levels, diabetes status,Maximum
-            heart rate and Chest Pain level.</p>
+            heart rate and Chest Pain level. By inputting these parameters, the calculator generates an 
+            estimation of the person's likelihood of experiencing a cardiovascular event within a specific 
+            time frame, usually within the next 10 years. While the risk calculator cannot predict the kind of cardiovascular event that 
+            may occur, it is perfectly potent to predict whether an individuals at a risk for developing these diseases based on his/her 
+            current lifestyle and other risk factors. It is a novel invention considering the current time where every individual is too 
+            involved in daily life that they either don't get enough time to regularly visit their healthcare professionals or are too busy 
+            to pay enough attention to their health.
+          </p>
         </div>
-        <div class="col-md-6">
-          <img src="https://oklahoma.gov/content/dam/ok/en/healthchoice/images/premiums.png " class="img-fluid ser-img" width=350px height=200px>
+        <div class="col-md-5" style="margin-top: -20pt;">
+          <img src="https://oklahoma.gov/content/dam/ok/en/healthchoice/images/premiums.png " class="img-fluid ser-img" style="margin-left: -15pt;">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
           <img src="./Images/heart.jpeg" class="img-fluid ser-img" />
         </div>
-        <div class="col-md-6">
-          <h3 class="text-style">Why should you take our test?</h3>
+        <div class="col-md-7" id="toptext">
+          <h2 class="text-style">Why should you take our test?</h2>
           <p class="text-style">
-            Our model uses your personal health information to gauge your future risk of cardiovascular disease (heart disease). </br> It can help determine the likelihood of:</br>
+            Our model uses your personal health information to gauge your future risk of cardiovascular 
+            disease (heart disease). </br> It can help determine the likelihood of:</p>
             <ol class="text-style">
               <li> Atherosclerosis</li>
               <li> Coronary artery disease</li> 
@@ -186,6 +224,10 @@
               <li> Heart failure</li> 
               <li> Stroke</li>
             </ol>
+          <p class="text-style">
+            The results of our risk calculator are 82% accurate, meaning that it works quite satisfactorly 
+            in predicting the possibility of an individual being prone to cardiovascular diseases. Also, the user interface is
+            easy to understand and can be used by anyone.
           </p>
         </div>
         
@@ -264,9 +306,10 @@
           </div>
         </div>
       </div>
+
     
-      <!-- Footer section -->
-      <div class="row justify-content-evenly pt-5 pb-2 text-white" style="background-image:linear-gradient(to right, #0b2692, #a91616);">
+      <!-- Footer section --> 
+      <div class="row justify-content-evenly pt-5 pb-2 text-white " style="text-align: left;  background-image:linear-gradient(to right, #0b2692, #a91616);">
         <div class="col-md-3 pt-4" id="footer">
           <h5 class="pb-2">Important links</h5>
           <p>
@@ -283,9 +326,9 @@
           <h5 class="pb-2">Feedback</h5>
           <p>
             <a href="#banner" class="link-light text-decoration-none"><i class="bi bi-file-text"></i> Form</a><br />
-            <a href="#about" class="link-light text-decoration-none"><i class="bi bi-facebook"></i> Review on Facebook</a
+            <a href="#banner" class="link-light text-decoration-none"><i class="bi bi-facebook"></i> Review on Facebook</a
             ><br />
-            <a href="#typeservice" class="link-light text-decoration-none"><i class="bi bi-google"></i> Review on Google</a
+            <a href="#banner" class="link-light text-decoration-none"><i class="bi bi-google"></i> Review on Google</a
             ><br />
             
           </p>
@@ -303,6 +346,7 @@
         </div>
       </div>
     </div>
+  </div>
     <!-- Container Ends here -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
