@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Blog4</title>
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <link
@@ -12,7 +17,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylestest.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
@@ -25,7 +30,7 @@
       style="background-image:linear-gradient(to right, #0b2692, #a91616); position: relative;top: 0;"
       id="topnav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="./About.html"
           ><img src="Images/logo.png" width="60px" class="img-fluid"
         /></a>
 
@@ -46,19 +51,20 @@
         >
           <span class="navbar-toggler-icon "></span>
         </button>
+        <div class="col-md-1"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="./copy.html">Home</a>
+              <a class="nav-link" href="./Index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="./About.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#typeservice">Service</a>
+              <a class="nav-link" href="./Index.html#cards-sec">Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#third">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -76,20 +82,6 @@
         </div>
       </div>
     </nav>
-    <script>
-        window.onscroll = function() { myFunc() };
-    
-        var navbar = document.getElementById("topnav");
-        var sticky = navbar.offsetTop;
-    
-        function myFunc() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky");
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-      </script>
     <!-- Nav Bar ends -->
 
 
@@ -97,32 +89,31 @@
     <!-- Container starts here -->
     <div class="container-fluid">
       <!-- Banner starts here -->
-      <div
-        id="banner" >
         
-        <div class="row">
-          <div class="col-md-12" id="bannerleft">
-            <h1 style="-webkit-text-fill-color:#000;">
+        <div class="row" style="padding-top: 3.5rem;">
+          <div class="col-md-12" id="blogtxt">
+            <h1>
               What Is Beta Glucan? The Heart-Healthy Fiber Explained.
             </h1>
-          </br>
-            <div class="row">
-              <div class="col-md-6 image-text-container">
+          </div>
+          </div>
+            <div class="row" style="margin-top: -2rem;">
+              <div class="col-md-6 image-text-container" id="blogtxt">
                 <img src="https://www.emergeresearch.org/wp-content/uploads/2020/12/Silhouette-filler-photo.png" class="circle-image" style="margin-right: 10px;">
                 <span style="-webkit-text-fill-color: #000;">By Rena Goldman, on July 13, 2023</span>
               </div>
               <div class="col-md-6">
               </div>
             </div>
-            <img src="./Images/Beta-Glucan.webp" style="width: 100%;">
-            <p class="text-style">
-              Beta glucan is a type of soluble fiber found naturally in a variety of food sources, such as oats, barley, and rye. It’s associated with numerous health benefits, including lower cholesterol levels and improved immune health.</br>
-              Beta glucan is a type of fiber that’s responsible for many of the health-promoting properties of foods like oats, wheat, and barley.</br>
-              It has been studied extensively for its effects on heart health and cholesterol levels, as well as been shown to boost immunity and stabilize blood sugar levels.</br>
+            <img src="./Images/Beta-Glucan.webp" style="width: 100%;height: 500px; margin-top: -2rem; padding-left: 2rem;padding-right: 2rem;padding-bottom: 2rem;">
+            <div class="container-fluid" id="blogtxt">
+            <p class="text-style" style="font-weight: bold;">
+              Beta glucan is a type of soluble fiber found naturally in a variety of food sources, such as oats, barley, and rye. It’s associated with numerous health benefits, including lower cholesterol levels and improved immune health.
+              Beta glucan is a type of fiber that’s responsible for many of the health-promoting properties of foods like oats, wheat, and barley.
+              It has been studied extensively for its effects on heart health and cholesterol levels, as well as been shown to boost immunity and stabilize blood sugar levels.
               As such, you may wonder how to increase your intake of beta glucan to reap its many health benefits.
               This article takes an in-depth look at beta glucan, including what it is, how it works, and how it could affect your health.
               </p>
-
               <h2 class="text-style">What is beta glucan?</h2>
               <p class="text-style">There are two main categories of dietary fiber — soluble and insoluble.</br>
                 Soluble fiber is a type of fiber that dissolves in water and forms a thick, gel-like substance. On the other hand, insoluble fiber doesn’t dissolve. 
@@ -140,10 +131,9 @@
               </p>
               <h2>Food sources of beta glucan</h2>
               <p class="text-style">Beta glucan is found naturally in a variety of food sources.
-
                 Grains like barley and oats contain the highest concentration of beta glucan, though it’s also found in other foods.
-                
-                Good sources include:</p>
+                Good sources include:
+              </p>
               <div class="row" style="margin-top: 20px;">
                 <div class="col-md-4">
                       <img class="image-list" src="./Images/oats.jpg">
@@ -161,15 +151,15 @@
 
               <div class="row">
                 <div class="col-md-4">
-                      <img class="image-list" src="./Images/mushrooms.jpg">
+                      <img class="secondrow" src="./Images/mushrooms.jpg">
                       <span style="text-align: center;"><b>Mushrooms</b></span>
                 </div>
                 <div class="col-md-4">
-                  <img class="image-list" src="./Images/rice.webp">
+                  <img class="secondrow" src="./Images/rice.webp">
                   <span style="text-align: center;"><b>Rice</b></span>
                 </div>
                 <div class="col-md-4">
-                  <img class="image-list" src="./Images/wheat.jpg">
+                  <img class="secondrow" src="./Images/wheat.jpg">
                   <span style="text-align: center;"><b>Wheat</b></span>
                 </div>
               </div>
@@ -233,31 +223,20 @@
                 It’s also widely available in supplement form and used as a natural treatment for many different conditions.<br>
                 Still, the best way to increase your intake is by enjoying a variety of nutritious, fiber-rich foods as part of a healthy diet.<br>
               </p>
-              <div class="row">
+            </div>
+              <div class="row"  id="blogtxt">
                 <div class="col-md-12 tip-style">
                   <h3>Just one thing</h3>
-                  <p class="text-style ">
+                  <p class="text-style">
                     Try this today: Oats are one of the most versatile sources of beta glucan. Besides oatmeal, they’re a great topping for yogurt and make a heart-healthy addition to smoothies, pancakes, baked goods, and more. 
                     You can also try making convenient overnight oats for an easy breakfast.
                   </p>
                 </div>
+                <br style="padding-bottom: -100pt;">
+                <hr class="text-style" style="font-size: xx-large; -webkit-text-fill-color: #000; font-weight: 900;">
               </div>
                
-              
-            
-          </div>
-        </div>
-      </div>
-      <!-- Banner ends here -->
-
-      <!-- Service section after banner -->
-      <div class="row justify-content-evenly" 
-      style="background-image:linear-gradient(to right, #5772dc, #eb2f2f)"
-       id="about">
-        
-      </div>
-
-    </hr>
+  
 
       <!-- Cards blog section starts here -->
       <div class="row justify-content-evenly text-center" id="cards-sec">
@@ -309,20 +288,18 @@
         
       <!-- Footer section -->
       <div class="row justify-content-evenly pt-5 pb-2 text-white" style="background-image:linear-gradient(to right, #0b2692, #a91616);">
-        <div class="col-md-3 pt-4">
+        <div class="col-md-3 pt-4" id="footer">
           <h5 class="pb-2">Important links</h5>
           <p>
-            <a href="./copy.html" class="link-light text-decoration-none">Home</a><br />
-            <a href="#about" class="link-light text-decoration-none">About</a
+            <a href="./Index.html" class="link-light text-decoration-none">Home</a><br />
+            <a href="./About.html" class="link-light text-decoration-none">About</a
             ><br />
-            <a href="#typeservice" class="link-light text-decoration-none">Resources</a
+            <a href="./Index.html#cards-sec" class="link-light text-decoration-none">Resources</a
             ><br />
-            <a href="#store-sec" class="link-light text-decoration-none">Take test</a><br />
-            <a href="#cards-sec" class="link-light text-decoration-none">Recent Posts</a><br/>
-            <br />
+            <a href="./form.html" class="link-light text-decoration-none">Take test</a>
           </p>
         </div>
-        <div class="col-md-3 pt-4">
+        <div class="col-md-3 pt-4" id="footer">
           <h5 class="pb-2">Feedback</h5>
           <p>
             <a href="#" class="link-light text-decoration-none"><i class="bi bi-file-text"></i> Form</a><br />
@@ -333,7 +310,7 @@
             
           </p>
         </div>
-        <div class="col-md-3 pt-4">
+        <div class="col-md-3 pt-4" id="footer">
           <h5 class="pb-2">Contact us</h5>
           <p>
             
