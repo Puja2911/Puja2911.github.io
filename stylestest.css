@@ -325,86 +325,74 @@ Resources starts here */
     margin-bottom: 15pt;
     text-align: center;
 }
+/* Nav bar */
+/* ... Previous styles ... */
 
-
-/* ... Other styles ... */
+/* Banner */
+/* ... Previous styles ... */
 
 /* Media queries for responsiveness */
 
-/* Smaller screens */
-@media (max-width: 768px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-      padding-left: 1.5rem;
-      font-size: 16px;
-    }
-  
-    #searchbox {
-      width: 150px;
-    }
-  
-    #searchbtn {
-      width: 50px;
-      font-size: 12px;
-    }
-  
-    #bannerleft h1 {
-      font-size: 32px;
-    }
-  
-    #bannerleft p {
-      font-size: 16px;
-    }
-  
-    /* Adjust other styles for smaller screens as needed */
-  }
-  
-  /* Even smaller screens (e.g., phones) */
-  @media (max-width: 576px) {
-    .navbar-nav {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .navbar-expand-lg .navbar-nav .nav-link {
-      padding-left: 1rem;
-      font-size: 14px;
-    }
-  
-    #searchbox {
-      width: 130px;
-    }
-  
-    #searchbtn {
-      width: 40px;
-      font-size: 10px;
-    }
-  
-    #bannerleft h1 {
-      font-size: 28px;
-    }
-  
-    #bannerleft p {
-      font-size: 14px;
-    }
-  
-    /* Adjust other styles for even smaller screens as needed */
-  }
-
-
-@media only screen and (max-device-width: 414px) {
-  /* Targeting iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12, etc. */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-left: 0.5rem;
-    font-size: 12px;
+    padding-left: 2rem;
+    font-size: 16px;
   }
 
   #searchbox {
-    width: 100px;
+    width: 200px;
   }
 
   #searchbtn {
-    width: 30px;
-    font-size: 8px;
+    width: 60px;
+    font-size: 14px;
+  }
+
+  #bannerleft h1 {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+
+  #bannerleft p {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust other styles for small devices as needed */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* ... Previous styles ... */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* ... Previous styles ... */
+}
+
+/* Extra-large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* ... Previous styles ... */
+}
+
+/* iPhone screens */
+@media only screen and (max-device-width: 414px) {
+  /* Targeting iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12, etc. */
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    font-size: 14px;
+  }
+
+  #searchbox {
+    width: 150px;
+  }
+
+  #searchbtn {
+    width: 50px;
+    font-size: 12px;
   }
 
   #bannerleft h1 {
@@ -417,4 +405,8 @@ Resources starts here */
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
+  /* Adjust other styles for iPhone screens as needed */
+}
+
 
