@@ -325,16 +325,21 @@ Resources starts here */
     margin-bottom: 15pt;
     text-align: center;
 }
-/* Nav bar */
-/* ... Previous styles ... */
 
-/* Banner */
-/* ... Previous styles ... */
-
-/* Media queries for responsiveness */
-
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    margin-right: 10px;
+  }
+
+  .navbar-brand img {
+    height: 40px;
+  }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 2rem;
     font-size: 16px;
@@ -381,6 +386,16 @@ Resources starts here */
 /* iPhone screens */
 @media only screen and (max-device-width: 414px) {
   /* Targeting iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12, etc. */
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-brand img {
+    height: 30px;
+  }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 1rem;
     font-size: 14px;
@@ -408,5 +423,3 @@ Resources starts here */
 
   /* Adjust other styles for iPhone screens as needed */
 }
-
-
