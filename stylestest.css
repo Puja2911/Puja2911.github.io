@@ -97,23 +97,9 @@
     color: white;   
 }
 
-@media only screen and (max-width: 900px){
-    #bannerleft h1{
-        font-size: 30px;
-    }
-    #bannerleft p{
-        font-size: 13px;
-    }
-}
 
-@media only screen and (max-width: 1180px){
-    #banner{
-        padding-top: 0%;
-    }
-    #bannerRight{
-        padding-top: 8%;
-    }
-}
+
+
 
 
 #toptext{
@@ -340,3 +326,66 @@ Resources starts here */
     text-align: center;
 }
 
+
+/* ... Other styles ... */
+
+/* Media queries for responsiveness */
+
+/* Smaller screens */
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 1.5rem;
+      font-size: 16px;
+    }
+  
+    #searchbox {
+      width: 150px;
+    }
+  
+    #searchbtn {
+      width: 50px;
+      font-size: 12px;
+    }
+  
+    #bannerleft h1 {
+      font-size: 32px;
+    }
+  
+    #bannerleft p {
+      font-size: 16px;
+    }
+  
+    /* Adjust other styles for smaller screens as needed */
+  }
+  
+  /* Even smaller screens (e.g., phones) */
+  @media (max-width: 576px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 1rem;
+      font-size: 14px;
+    }
+  
+    #searchbox {
+      width: 130px;
+    }
+  
+    #searchbtn {
+      width: 40px;
+      font-size: 10px;
+    }
+  
+    #bannerleft h1 {
+      font-size: 28px;
+    }
+  
+    #bannerleft p {
+      font-size: 14px;
+    }
+  
+    /* Adjust other styles for even smaller screens as needed */
+  }
