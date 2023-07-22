@@ -360,6 +360,8 @@ Resources starts here */
   }
   .nav-style .navbar-toggler {
     margin-right: 0;
+      float: right; 
+      padding: 10px;
   }
   .nav-style .navbar-nav {
     margin-top: 10px;
