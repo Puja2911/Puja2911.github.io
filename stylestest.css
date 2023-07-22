@@ -267,6 +267,7 @@ Resources starts here */
 .logo-style{
     -webkit-text-fill-color: azure;
     display: inline-block;
+    padding-top:50px;
 }
 
   
