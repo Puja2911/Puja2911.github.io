@@ -28,23 +28,15 @@
     <!-- Nav Bar starts -->
     <nav
       class="navbar navbar-expand-lg navbar-dark nav-style small-navbar"
-      style="background-image:linear-gradient(to right, #0b2692, #a91616);position:fixed;top: 0; width: 100%;"
+      style="background-image:linear-gradient(to right, #0b2692, #a91616);  position:fixed;top: 0; width: 100%;
+      overflow:hidden;"
       id="topnav">
       <div class="container-fluid" style="width: fit-content;">
-        <a class="navbar-brand" href="#"
-          ><img src="Images/logo.png" width="60px" class="img-fluid"
-        /></a>
-
-      <div class="row">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
-          <h1 class="logo-style">HeartWise</h1>
-        </div>
-      </div>
-
-        
-        </div>
+        <a class="navbar-brand" href="./About.html"
+          ><img src="Images/logo.png" width="60px" class="img-fluid">
+        </a>
+        <h1 class="logo-style">HeartWise</h1>
+          
         <button
           class="navbar-toggler"
           type="button"
@@ -72,6 +64,7 @@
               <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
+        
           <form class="d-flex" role="search" style="padding-right: 30pt;">
             <input
               class="form-control me-2"
@@ -84,8 +77,10 @@
               <i class="bi bi-search"></i>
             </button>
           </form>
+        
         </div>
       </div>
+   
     </nav>
     <script>
       window.onscroll = function() { myFunction() };
@@ -100,6 +95,7 @@
         }
       }
     </script>
+   
   <!-- Nav Bar ends -->
     <!-- Nav Bar ends -->
 
@@ -110,12 +106,13 @@
       <!-- Banner starts here -->
       
       <div
-        class="row-justify-content-evenly  row-justify-evenly "
-        id="banner"  >
+        class=" row-justify-content-evenly  row-justify-evenly "
+        id="banner" style="background-image: url(./Images/heart-analytics-media.jpg);
+        background-size: cover;" >
         <div class="row">
           <div class="col-md-6" id="bannerleft">
           </div>
-          <div class="col-md-6" id="bannerleft">
+          <div class="col-md-6" id="bannerleft" style="position:static;">
             <h1 class="img-text-style">
               "Empower Your Heart Health: Discover Your Heart Attack Risk Score!"
             </h1>
