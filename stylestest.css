@@ -44,7 +44,24 @@
 #banner{
     padding-top: 6rem;
     padding-bottom: 4rem;
+    position: relative;
+    overflow:scroll; /* Add this to prevent overlapping */
 }
+#banner .row {
+    align-items: center; /* Center the content vertically */
+  }
+  
+  #banner .col-md-6 {
+    padding: 0; /* Remove padding to prevent overflow */
+  }
+  
+  #banner .img-text-style {
+    -webkit-text-fill-color: azure;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 #bannerleft{
     padding-left: 3rem;
     padding-right: 3rem;
@@ -243,14 +260,13 @@ Resources starts here */
     margin-top: 10pt;
     width: 100;
     height: 550px;
-  background-image: url(./Images/heart-analytics-media.jpg);
-  background-size: cover;
+  
 
 }
 
 .logo-style{
-    padding-top: 50px;
     -webkit-text-fill-color: azure;
+    display: inline-block;
 }
 
   
@@ -325,4 +341,33 @@ Resources starts here */
     margin-bottom: 15pt;
     text-align: center;
 }
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.navbar-brand {
+    margin-right: 20px;
+}
+
+
+  
+  
+  
+
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
 
