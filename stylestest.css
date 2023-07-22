@@ -362,6 +362,7 @@ Resources starts here */
     margin-right: 0;
       float: right; 
       padding: 10px;
+      position: relative;
   }
   .nav-style .navbar-nav {
     margin-top: 10px;
