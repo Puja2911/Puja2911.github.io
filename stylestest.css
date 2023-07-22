@@ -348,38 +348,7 @@ Resources starts here */
 
 
 
-/* Existing styles */
 
-/* Media query for smaller screens */
-@media only screen and (max-width: 360px) {
-  .nav-style .navbar-collapse {
-    flex-direction: column; /* Stack the elements vertically */
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #0b2692;
-    z-index: 999;
-    padding-top: 1.5rem;
-  }
-  .nav-style .navbar-toggler {
-    margin-right: 0;
-    padding: 10px;
-    float: none; /* Remove float */
-    position: relative;
-    text-align: right; /* Align the hamburger button to the right */
-  }
-  .nav-style .navbar-toggler-icon {
-    background-color: white;
-  }
-  .nav-style .navbar-nav {
-    margin-top: 10px;
-    justify-content: center;
-  }
-  .nav-style .navbar-nav .nav-item {
-    text-align: center;
-  }
-}
 
 
 
