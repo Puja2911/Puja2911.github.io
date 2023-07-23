@@ -57,8 +57,7 @@
 #banner{
     padding-top: 6rem;
     padding-bottom: 4rem;
-    position: relative;
-    overflow:scroll; /* Add this to prevent overlapping */
+    position: relative; /* Add this to prevent overlapping */
 }
 #banner .row {
     align-items: center; /* Center the content vertically */
@@ -345,7 +344,7 @@ Resources starts here */
     .navbar-collapse {
       display: flex; /* Display the collapsed menu as flex */
       flex-direction: column; /* Stack the menu items vertically */
-      background-color: linear-gradient(to right, #0b2692, #a91616);
+      background-image: linear-gradient(to right, #0b2692, #a91616);
     }
     .navbar-nav .nav-link {
       padding-left: 1rem; /* Reduce the padding for menu items in collapsed menu */
