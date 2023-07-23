@@ -5,7 +5,7 @@
 
 .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 18px;
-    padding-left: 3rem;
+    padding-left: 1rem;
 
 }
 .navbar-brand-container {
@@ -14,24 +14,20 @@
   }
   
 .navbar-brand {
-    margin-right: 20px;
+    margin-right: 10px;
+    max-width: 120px; /* Set a maximum width for the logo container */
 }
 
 .nav-style{
     z-index: 9999;
 }
 
-#topnav{
+#topnav {
     padding: 0 8%;
     position: relative;
     box-shadow: 2px 5px 11px 0 rgb(48, 45, 48);
-}
+  }
 
-@media (max-width: 991px) {
-    .navbar-collapse {
-    background-image: linear-gradient(to right, #0b2692, #a91616); /* Set the background color for the collapsed menu on small screens and laptops */
-    }
-}
 
 #searchbox{
     background-color: #fa7b8c;
@@ -344,15 +340,20 @@ Resources starts here */
     text-align: center;
 }
 
+  
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      display: flex; /* Display the collapsed menu as flex */
+      flex-direction: column; /* Stack the menu items vertically */
+      background-color: linear-gradient(to right, #0b2692, #a91616);
+    }
+    .navbar-nav .nav-link {
+      padding-left: 1rem; /* Reduce the padding for menu items in collapsed menu */
+    }
+  }
 
 
-
-
-
-
-
-
-
+  
   
   
   
